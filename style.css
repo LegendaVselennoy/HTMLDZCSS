@@ -27,13 +27,20 @@ body{
 
 img{
     max-width: 100%;
-    display: block;
+    /* display: block; */
 }
 
-/* .center{
-    padding-left: calc(50% - 960px);
-    padding-right: calc(50% - 960px);
-} */
+.center{
+    padding-left: calc(50% - 585px);
+    padding-right: calc(50% - 585px);
+}
+
+
+.navigate{
+    display: flex;
+    margin-top:40px;
+}
+
 
 
 .navigation{
@@ -43,21 +50,42 @@ img{
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 11px;
 }
 
+.nav-head{
+    display: flex;
+    justify-content: flex-end;
+    gap: 17px;
+}
+
+.logo-head{
+    margin-right: 500px;
+}
 
 .home{
     color:  #F25822;
     font-family: Gilroy-SemiBold;
 }
 
+.main-sec{
+    display: flex;
+    gap: 41px;
+}
+
+.main-style{
+    margin-top: 140px;
+}
+
+
+
 h1{
     color: #000;
     font-family: 'Gilroy-Bold';
-    font-size: 60px;
+    font-size: 59px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal
+    line-height: normal;
 }
 
 p{
@@ -67,6 +95,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+margin-top: 17px;
 }
 
 .but-start{
@@ -82,11 +111,24 @@ line-height: normal;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
 }
 
-.watch-main{
+.watch-main a{
     color: #AAA;
 font-family: Gilroy-Bold;
 font-size: 15px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.main-style-but{
+    display: flex;
+    align-items: center;
+    margin-top: 37px;
+    gap: 72px;
+}
+
+.art-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 162px;
 }
